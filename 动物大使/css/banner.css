@@ -1,0 +1,176 @@
+.containMain {
+    /* overflow:auto; */
+    width: 1440px;
+    margin:  0 auto;
+    padding-top: 0;
+    background-color: #f6f3eb;
+    margin-top: 80px;
+    height: 700px;
+}
+
+.contain-main {
+    position: relative;
+    height: 1000px;
+    margin: 0 auto;
+    /* width: 70%; */
+    width: 1000px;
+}
+
+.contain-main .content {
+    position: absolute;
+    top: -250px;
+    /* z-index: 100; */
+    height: 100%;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.bgimg {
+    /* left: 50%; */
+    /* margin-left: -900px; */
+    z-index: 2;
+    width: 100%;
+    height: 300px;
+    background-color: pink;
+}
+.bgimg img{
+    margin: 0 auto;
+    display: block;
+    margin-left: -960px;
+}
+.headline{
+    height: 120px;
+    z-index: -5px;
+    /* border-bottom: 1px solid gray; */
+}
+.headline h1{
+    color: white;   
+}
+.matter{
+    /* overflow:auto; */
+    height: 900px;
+    width: 1000px;
+    margin: 0 auto;
+    z-index: 5px;
+    /* padding: 0 30px; */
+    padding-top: 70px;
+    background-color: white;
+    border-radius: 10px;
+}
+.szanimal{
+    height: 450px;
+    width: 940px;
+    margin:  0 auto;
+}
+.szMangrove{
+    margin-top: 15px;
+    height: 350px;
+    width: 940px;
+    margin:  0 auto;
+}
+.matter .subhead{
+    width: 600px;
+    height: 40px;
+    position: relative;
+    border-top: 2px solid brown;
+    color: brown;
+    text-align:center;
+    margin:  0 auto;
+}
+.matter .subhead h2{
+    display: inline-block;
+    position: absolute;
+    line-height: 40px;
+    width: 240px;
+    top: 50%;
+    left: 50%;
+    margin-top: -40px;
+    margin-left: -120px; 
+    z-index: 10px;
+    background-color: white;
+}
+.matter .imgbox{
+    float: left;
+    margin-top: 15px;
+    height: 300px;
+    width: 350px;
+    /* background-color: pink; */
+}
+.matter .imgbox img{
+    max-width: 100%;
+}
+.matter .txtarea{
+    float: left;
+    width: 60%;
+    margin-left: 15px;
+    text-indent: 2em;
+    letter-spacing:1px;
+    font-size: 16px;
+     color: rgb(51, 51, 51);
+}
+.matter .Mangrove{
+    /* margin-top: 400px; */
+}
+.matter .Mangrove h2{
+    width: 260px;
+}   
+.matter .imgbox2{
+    position: relative;
+    width: 850px;
+    height: 200px;
+    border:  1px solid gray;
+    margin:  0 auto;
+}
+
+/* css3图片动画效果 */
+/*** effect zoom out ***/
+.img-zoom-out img 
+{
+transition:all .2s ease-in-out;
+-webkit-transition:all .2s ease-in-out;
+-moz-transition:all .2s ease-in-out;
+-ms-transition:all .2s ease-in-out;
+-o-transition:all .2s ease-in-out;
+}
+
+.img-zoom-out:hover img 
+{
+transform:scale(0.9);
+-webkit-transform:scale(0.9);
+-moz-transform:scale(0.9);
+-ms-transform:scale(0.9);
+-o-transform:scale(0.9)
+}
+/*** effect - image roll ***/
+/* .image-hover img{
+    margin: -100px 0 0 -100px;
+} */
+.image-hover *{
+    box-sizing: border-box
+}
+
+.img-roll {background:#000}
+.img-roll img {position:absolute;top:0px;right:0px;bottom:0px;left:0px}
+
+.img-roll .img-1 {left:0px}
+.img-roll .img-2 {left:123%}
+.img-roll:hover .img-1 {left:123%}
+.img-roll:hover .img-2 {left:0px}
+
+.img-roll img
+{
+transition:all .6s ease-in-out;
+-webkit-transition:all .6s ease-in-out;
+-moz-transition:all .6s ease-in-out;
+-ms-transition:all .6s ease-in-out;
+-o-transition:all .6s ease-in-out;
+}
+
+.img-roll:hover img
+{ 
+transition:all 1.2s ease-in-out;
+-webkit-transition:all 1.2s ease-in-out;
+-moz-transition:all 1.2s ease-in-out;
+-ms-transition:all 1.2s ease-in-out;
+-o-transition:all 1.2s ease-in-out;
+}

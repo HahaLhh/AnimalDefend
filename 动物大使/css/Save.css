@@ -1,0 +1,61 @@
+
+body{
+    background-color:#edece8;
+}
+.headline {
+    height: 100px;
+    margin-top: -4px;
+}
+.matter .txtarea1{
+    float: left;
+    width: 93%;
+    margin-left: 30px;
+    text-indent: 2em;
+    letter-spacing:3px;
+    font-size: 20px;
+    color: rgb(51, 51, 51);
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+#news_img,#news{
+    float: left;
+}
+#news_img{
+    width: 900px;
+    height: 370px;
+    position: relative;
+}
+#news{
+    width: 460px;
+}
+.imgs,#newsList2{
+    display: none;
+}
+#num{
+    position: absolute;
+    left: 450px;
+    bottom: 10px;
+}
+.num_list{
+    display: inline-block;
+    float: left;
+    margin-right: 15px;
+    margin-top: 50px;
+    width: 20px;
+    height: 20px;background-color: gainsboro;
+    opacity: 0.5;
+
+}
+#img_list img{
+    width: 900px;
+    height: 370px;
+    margin-left: 50px;
+
+}
+.szanimal{
+    height: 380px;
+}

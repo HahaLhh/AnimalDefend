@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    
+}
+/* img{
+    max-width: 100%;
+} */
+li{
+    list-style: none;
+}
+body{
+    /* width: 100%; */
+    width: 1440px;
+    height: 100%;
+    border: 0;
+    /* min-width: 1400px; */
+    /* max-width: 1800px; */
+    margin:  0 auto;
+    background-color: #F6F3EB;
+}
+.containMain{
+    /* width: 95%; */
+    width: 1440px;
+    padding-top: 80px;
+    position: relative;
+    /* height: 700px; */
+    /* min-width: 1000px; */
+    margin: 0 auto;
+}
+.contain-header{
+    min-width: 1000px;
+    margin: 0 auto;
+    /* width: 90%; */
+    width: 1300px;
+}
+
+
+header{
+    box-shadow: 0px 0px 10px rgb(0,0,0,0.1);
+   position: fixed;
+   top: 0;
+   width: 100%;
+   max-width: 1440px;
+   height: 80px;
+   z-index: 100;
+   border-radius: 2px;
+   /*background: url(../images/topBg.jpg) 0 0 no-repeat;*/
+    background-color: #FFFFFF; 
+}
+header .logo{
+    display: inline-block;
+    position: absolute;
+    left: 70px;
+    top: 10;
+    width: 150px;
+    height: 70px;
+    /* background-color: pink; */
+}
+header nav{
+    padding-left: 240px;
+}
+header nav a{
+    display: inline-block;
+    height: 80px;
+    line-height: 80px;
+    font-size: 16px;
+    margin-right: 10px;
+    padding: 0 30px;
+    color: #000000;
+    font-weight: bold;
+}
+header nav  .here{
+    background-color: #FFD302;
+    /*color: #fff;*/
+    box-shadow: 0px 4px #000000 inset;
+}
+header nav a:hover{
+    background-color: #FFD302;
+   /* color: #fff;*/
+    box-shadow: 0px 4px #000000 inset;
+}
+footer{
+    background-color: #413d3b;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    /* left: 0; */
+    /* width: 100%; */
+    width: 1440px;
+    padding: 0;
+}
+footer .footerMin{
+    line-height: 50px;
+    margin: 0 auto;
+    text-align: center;
+    /* width: 90%; */
+    width: 1300px;
+    /* padding: 10px 45px ; */
+    color: #fff;
+}
+footer .footerMin p{
+    display: inline-block;
+    vertical-align:top;
+    text-align: center;
+    padding-right: 30px;
+    font-size: 12px;
+    color: #fff;
+    border-right: 1px solid gray;
+}
+footer .footerMin .icon{
+    position: relative;
+    display: inline-block;
+    vertical-align:top;
+    padding-left: 40px;
+    width: 150px;
+    height: 30px;
+    margin: 0 10px;
+}
+.footerMin .icon a{
+    vertical-align:top;
+    display: inline-block;
+    margin-left: 25px;
+    height: 50px;
+    width: 32px;
+    margin-top: 10px;   
+}
+.footerMin .icon div{
+    display: inline;
+}
+.footerMin .icon #wx{
+    background: url(../images/wx1.png) no-repeat;
+}
+.footerMin .icon #wx:hover{
+    background: url(../images/wx2.png) no-repeat;
+}
+.footerMin .icon #wb{
+    background: url(../images/wb1.png) no-repeat;
+}
+.footerMin .icon #wb:hover{
+    background: url(../images/wb2.png) no-repeat;
+}
+.footerMin .icon .hover{
+    position: absolute;
+    top: -270px;
+    left: 8%;
+    width: 200px;
+    height: 250px;
+    padding-top: 10px;
+    /* padding-left: 15px; */
+    border: 1px solid gray;
+    border-radius: 8px;
+    text-align: center;
+}
+.footerMin .icon .hover #txt{
+    color: #fff;
+    position: relative;
+    bottom:30px;
+    font-size: 14px;
+    height: 20px;
+}
+
+.contain-main .flash4{
+    /* width: 90%; */
+    margin: 0 auto;
+}
+footer .contact{
+    /* font-size: 16px; */
+    font-weight: bolder;
+    margin-left: 70px;
+    height: 50px;
+    width: 100px;
+    background-color: #FFD302;
+    color: white;
+    border-bottom: 4px solid black;
+    border-radius: 5px;
+}
+footer .contact:hover{
+    color: black;
+}
+/* .move{
+    position: absolute;
+    right: 30px;
+    bottom: -100px;
+}
+.move button{
+
+    font-weight: bolder;
+    width: 300px;
+    height: 70px;
+    background-color: #FFD302;
+    border-radius: 5px;
+}
+.move button:hover{
+    background-color: rgb(226, 200, 67);
+}
+.move button a{
+    display: inline-block;
+    color: white;
+    font-size: 18px;
+    width: 300px;
+    height: 70px;
+    line-height: 70px;
+} */
+.container{
+    width: 1300px;
+    margin: 0 auto;
+}

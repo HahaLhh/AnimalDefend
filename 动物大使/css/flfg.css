@@ -1,0 +1,23 @@
+.contain-main {
+    height: 900px;
+}
+
+.matter {
+    height: 900px;
+    padding-left: 60px;
+    padding-right: 60px;
+
+}
+
+.matter .txtarea {
+    margin-left: 0;
+    letter-spacing: 1px;
+    width: 100%;
+    line-height: 25px;
+}
+.matter .move{
+    /* text-align: right; */
+    float: right;
+    margin-top: 30px;
+    display: inline-block;
+}

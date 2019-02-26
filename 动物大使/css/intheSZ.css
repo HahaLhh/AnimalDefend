@@ -1,0 +1,20 @@
+.contain-main .content {
+    /* position: absolute; */
+    /* top: -250px; */
+    /* z-index: 100; */
+    height: 100%;
+    /* width: 1000px; */
+    margin: 0 auto;
+    margin-top: 270px;
+    width: 1300px;  
+}
+.contain-main {
+    width: 1300px;
+    /* margin: 0 auto; */
+}
+.contain-main .matter{
+    width: 1300px;
+}
+.containMain{
+    height: 100%;
+}

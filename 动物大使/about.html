@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>动物大使</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- <link rel="stylesheet" href="./插件/css3图片动画效果/css/style.css"> -->
+    <link rel="stylesheet" href="./css/banner.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <script src="jq/jquery-3.2.1.min.js"></script>
+    <script src="./js/table.js"></script>
+    <script src="./js/about.js"></script>
+    <link rel="shortcut icon" href="bitbug_favicon.ico" />
+    <script src="./js/register.js"></script>
+</head>
+
+<body>
+    <!-- 头部开始 -->
+    <header>
+        <div class="contain-header">
+            <h1 class="logo"><a href="#"><img src="./images/logo1.png" alt=""></a></h1>
+            <nav>
+                <a href="./index.html">首页</a>
+                <a href="./intheSZ.html">在深圳</a>
+                <a href="#">动物救助</a>
+                <a href="./law.html">法律法规</a>
+                <a href="./about.html" class="here">关于我们</a>
+            </nav>
+        </div>
+    </header>
+    <!-- 头部结束 -->
+    <!-- 页面主要内容区开始 -->
+    <div class="containMain">
+        <div class="contain-main about">
+            <div class="txtarea">
+                <strong>
+                    <p>我们是来自深圳信息学院二年级的学生。</p>
+                </strong>
+                <p>制作这个保护野生动物主题的公益类型网站，是因为我们认为野生动物与人类之间应当持续着良好的邻里关系，与此同时，野生动物也一向是人类最好的朋友。因此，一旦野生动物的生存与发展受到威胁，不仅仅对于野生动物自身来说是不利的，对于我们人类及我们的子孙后代都是没有任何意义的。所以，保护野生动物不仅仅事关大自然的生态平衡，还对我们人类的生存与发展有着重大的意义。</p>
+                <div id="touth">
+                    <strong>
+                        <p style="display:block">可以留下您的邮箱让我们更好的沟通</p>
+                    </strong>
+                    <br>
+                    <label for="email">您的邮箱地址为：</label>
+                    <input type="text" name="email" id="email">
+                    &nbsp;&nbsp;
+                    <label for="surname">您的姓氏为：</label>
+                    <input type="text" name="surname" id="surname" v-model="surname">
+                    <div class="sex">
+                        <input type="radio" id="one" value="先生" v-model="picked">
+                        <label for="one" >男</label>
+                        &nbsp;&nbsp;
+                        <input type="radio" id="two" value="女士" v-model="picked">
+                        <label for="two" >女</label>
+                    </div>
+                    <br>
+                    <p class="send"> 尊敬的{{surname}}{{picked}}&nbsp;我们将会与您联系，感谢您的支持</p>
+
+                    <br>
+                    <strong>
+                        <p>请为我们的网站做个评价</p>
+                    </strong>
+                    <span id="mail"></span>
+                    <div class="star">
+                        <ul class="comment">
+                            <li>☆</li>
+                            <li ts="122" class="ss">☆</li>
+                            <li>☆</li>
+                            <li>☆</li>
+                            <li>☆</li>
+                        </ul>
+                    </div>
+                    <div class="exit" >
+                        <a href="./index.html">保存并返回首页</a>
+                    </div>
+                </div>
+                <script src="./vue/vue.js"></script>
+                <script>
+                    var vm = new Vue({
+                        el: "#touth",
+                        data: {
+                            surname: " ",
+                            picked: " ",
+                            named: " "
+                        }
+                    })
+                    </script>
+                </div>
+            </div>
+        </div>
+        <!-- 页面主要内容区结束 -->
+    <!-- 底部开始 -->
+    <footer>
+        <div class="footerMin ">
+            <p style="border:none">请友善对待这世界上的生命</p>
+            <p>@&nbsp动物大使版权所有</p>
+            <div class="icon">
+                <div>
+                    <a href="#" id="wx"></a>
+                    <div class="hover" style="display:none;">
+                        <img src="./images/二维码1.jpg" alt="">
+                        <h4 id="txt">联系我们</h4>
+                    </div>
+                </div>
+                <a href="#" id="wb"></a>
+            </div>
+        </div>
+    </footer>
+    <!-- 底部结束 -->
+</body>
+
+</html>
